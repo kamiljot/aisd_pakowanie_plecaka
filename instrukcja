@@ -1,0 +1,28 @@
+Pakowanie plecaka
+Dany jest plecak o udźwigu W oraz zestaw n przedmiotów o masach mi i wartościach
+ ci, dla i = 1, ..., n. Należy upakować przedmioty w plecaku tak, aby nie
+ przekroczyć jego udźwigu i aby wartość zapakowanych przedmiotów była jak
+ największa. 1 ≤ W ≤ 2000, 1 ≤ n ≤ 2000, 1 ≤ mi ≤ 2000, 1 ≤ ci ≤ 2000000.
+
+Wejście
+W pierwszej linii wejścia podana będzie liczba W - pojemność plecaka oraz
+n - liczba przedmiotów. W kolejnych n liniach pojawią się liczby
+mi i ci - masy i wartości przedmiotów.
+
+ Wyjście
+Na wyjściu należy podać n+1 liczb: sumaryczną wartość zapakowanych
+przedmiotów oraz numery przedmiotów włożonych do plecaka
+(w kolejności rosnącej).
+
+Przykład
+Wejście:
+10 5
+3 3
+3 3
+3 3
+4 5
+5 7
+
+Wyjście:
+12
+4 5
