@@ -242,6 +242,7 @@ int main() {
         delete [] backpack_1;
         delete [] backpack_2;
         delete [] backpack_3;
+        delete [] backpack_4;
 
     return 0;
 }
